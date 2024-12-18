@@ -9,11 +9,11 @@ def main():
         guess = int(input('Введите число'))
         if guess < number:
             print('Ваше число меньше того, что загадано.')
-        if guess > number:
+        elif guess > number:
             # ...выводим сообщение.
             print('Ваше число больше того, что загадано.')
            # Если число угадано...
-        if guess == number:
+        elif guess == number:
           # ...прерываем выполнение программы и...
             break
   # ...выводим сообщение.
